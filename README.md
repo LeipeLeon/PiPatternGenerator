@@ -1,5 +1,7 @@
 # Pi Pattern Generator
 
+![test card](720-koekfm.png)
+
 ## What is does
 
 A basic implementation of a (test) pattern generator from the HDMI output of an raspberry pi. The main reason is for our livestreaming purposes (http://koekfm.nl) so we can generate a test card for the switcher (Roland v-1HD) without hooking up a full blown computer just to generate it. (Yes, I could have bought an ATEM switch...)
