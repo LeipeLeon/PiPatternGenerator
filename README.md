@@ -40,3 +40,9 @@ Settled w/ `fbi` inspired from various sources around the net
 - Add this script to the .bashrc
 
       echo "/home/pi/start-display.sh" >> .bashrc
+
+- Reboot
+
+      sudo reboot
+
+Voila!
