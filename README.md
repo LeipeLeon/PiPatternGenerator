@@ -13,8 +13,8 @@ Settled w/ `fbi` inspired from various sources around the net
 - Create an image w/ Debian lite
 - Install FBI
 
-      apt-get update -y
-      apt-get install fbi
+      sudo apt-get -y update
+      sudo apt-get -y install fbi
 
 - Copy the png and script to the homedir (`/home/pi`)
 
