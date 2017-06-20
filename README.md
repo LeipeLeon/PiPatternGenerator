@@ -11,6 +11,18 @@ Settled w/ `fbi` inspired from various sources around the net
 ## Setup
 
 - Create an image w/ Debian lite
+
+- Set the bootoption and other settings w/ `sudo raspi-config`
+
+      - 3 Boot options
+        - B1 Desktop / CLI
+          - B2 Console Autologin
+        - B2 Wait for Network at Boot -> no
+      - 5 Interfacing Options
+        - P2 enable SSH (optional)
+      - 7 Advanced Options
+        - A2 Overscan -> no
+
 - Install FBI
 
       sudo apt-get -y update
@@ -28,14 +40,3 @@ Settled w/ `fbi` inspired from various sources around the net
 - Add this script to the .bashrc
 
       echo "/home/pi/start-display.sh" >> .bashrc
-
-- set the bootoption w/ `sudo raspi-config`
-
-      - 3 Boot options
-        - B1 Desktop / CLI
-          - B2 Console Autologin
-        - B2 Wait for Network at Boot -> no
-      - 5 Interfacing Options
-        - P2 enable SSH (optional)
-      - 7 Advanced Options
-        - A2 Overscan -> no
