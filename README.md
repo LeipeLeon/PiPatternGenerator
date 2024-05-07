@@ -46,3 +46,8 @@ Settled w/ `fbi` inspired from various sources around the net
       sudo reboot
 
 Voila!
+
+
+## Options:
+
+Generate a testcard with [https://pixelcubes.art/testcard.html](https://pixelcubes.art/testcard.html)
